@@ -1,4 +1,4 @@
-# TSA Data Science and Analytics
+# TSA Data Science and Analytics - Housing Data Analysis
 
 Gold Medal project for the **Technology Student Association (TSA) Data Science & Analytics** event — Ardrey Kell High School Chapter.
 
