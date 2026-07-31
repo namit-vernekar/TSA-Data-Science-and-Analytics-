@@ -2,7 +2,7 @@
 
 Gold Medal project for the **Technology Student Association (TSA) Data Science & Analytics** event — Ardrey Kell High School Chapter.
 
-This repository contains the data, analysis, and final portfolio submitted for the TSA NC Western Regional Conference, where the project placed **1st in Data Science & Analytics** and advanced to the State Conference.
+This repository contains the data, analysis, and final portfolio submitted during the 2025 NCTSA State Conference
 
 ## Overview
 
@@ -10,16 +10,14 @@ This project explores the relationship between household income and housing cost
 
 ## Recognition
 
-- **Gold Medalist** – TSA NC Western Regional Conference (Data Science & Analytics)
-- Competed individually, 1st place out of chapter competitors
-- Advanced to represent the Ardrey Kell TSA chapter at the State Conference
+- Gold Medalist – TSA NC Western Regional Conference (Data Science & Analytics)
 
 ## Repository Structure
 
 ```
 TSA-Data-Science-and-Analytics/
 ├── datasets/
-│   └── ZillowStateHousingData_original.xlsx   # Raw state-level housing cost data (Zillow)
+│   └── ZillowStateHousingData_original.xlsx   # Raw housing cost data (Zillow)
 ├── portfolio/
 │   └── TSA Documentation Portfolio.pdf         # Full write-up: methodology, process, and results
 └── README.md
@@ -27,28 +25,23 @@ TSA-Data-Science-and-Analytics/
 
 ## Tools & Technologies
 
-- **Python** — Pandas (data wrangling), Matplotlib (visualization)
+- **Python** — Pandas, Matplotlib, Seaborn
 - **Excel** — data cleaning and supplementary analysis
-- **Zillow Housing Data** — primary dataset source
+- **Zillow Housing Data** — primary dataset sources
 
 ## Methodology
 
-1. Collected and cleaned state-level housing cost data from Zillow
+1. Collected and cleaned different types of pricing data from Zillow
 2. Merged with income data to compute income-to-housing cost ratios
-3. Wrangled and structured the dataset using Pandas
-4. Built visualizations in Matplotlib to compare affordability across states/regions
-5. Interpreted results to identify regions with the greatest cost-of-living disparity
+3. Structured the dataset with Pandas
+4. Used Matplotlib and Seaborn to create visualizations
+5. Looked at conclusions/analysis from correlations and visualizations created
 6. Documented the full process in the TSA competition portfolio
 
-## Key Insight
+## Key Insights
 
-The analysis highlights how income-to-housing cost ratios vary significantly by region, pointing to areas of the U.S. where housing affordability is under the greatest strain relative to local incomes.
+Housing prices have grown faster than median household income for the past 25 years, and the gap has grown since the pandemic. At the state level, house prices and income are strongly correlated (0.8) but at the county level only moderately so (0.65), suggesting that other factors also drive affordability. States such as California and Hawaii are showing extreme unaffordability, and the top 20 metro areas — where nearly 40% of the U.S. population lives — are seeing the steepest price-to-income differences in the country.
 
 ## Full Documentation
 
 See [`portfolio/`](./portfolio) for the complete TSA Documentation Portfolio, including detailed methodology, charts, and competition write-up.
-
-## Author
-
-**Namit Vernekar**
-Ardrey Kell High School — Technology Student Association (TSA)
